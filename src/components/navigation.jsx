@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom"
 import { HomeScreen } from "./HomeScreen"
 import { AboutScreen } from "./AboutScreen"
 // import SideBar from "../bootstrap-components/sidebar"
-import { Restaurant } from "../DailyProjects/day3table"
+import { Restaurant } from "../DailyProjects/day5Navigation"
 
 
 

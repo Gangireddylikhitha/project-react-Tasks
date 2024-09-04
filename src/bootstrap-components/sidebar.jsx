@@ -7,6 +7,7 @@ const SideBar=()=>{
         <Nav defaultActiveKey="/home" className="flex-column" >
 
         <Link to="/home" className='mb-3'>HOME</Link>
+
         <Link to="/about" className='mb-3'>ABOUT</Link>
         <Link to="/contact" className='mb-3'>CONTACT</Link>
         

@@ -1,4 +1,4 @@
-import { Restaurant } from "../DailyProjects/day3table"
+import { Restaurant } from "../DailyProjects/day5Navigation"
 
 
 export const AboutScreen=()=>{

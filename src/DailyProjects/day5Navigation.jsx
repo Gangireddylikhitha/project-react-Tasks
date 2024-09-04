@@ -24,10 +24,13 @@ export const Restaurant=()=>{
 
       </div>
 
-      <div className="EntryPic">
-    <div><SideBar/></div>
-      
-      </div>
+
+     
+    <div>
+      <SideBar/>
+    </div>
+     
+     <button className="Add">Add+</button>
     
     </div>
   )
