@@ -50,6 +50,7 @@ class RecipeData extends Component {
                        
                         <div className="col-md-8">
                             <div className="row">
+                                <h1><marquee>Receipe Data</marquee></h1>
                                 {this.state.recipes.map((eachrecipe, id) => (
                                     <div className="row-md-6 mb-4" key={id}>
                                         <div 

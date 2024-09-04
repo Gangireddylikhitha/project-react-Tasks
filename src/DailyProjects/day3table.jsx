@@ -10,6 +10,7 @@ export const Restaurant=()=>{
 
   return(
     <div>
+
       <div className="logoBox">
           <img
            src="https://webdesigndev.com/wp-content/uploads/2021/10/1.image_.jpg"
@@ -22,7 +23,11 @@ export const Restaurant=()=>{
                 
 
       </div>
-      <SideBar/>
+
+      <div className="EntryPic">
+    <div><SideBar/></div>
+      
+      </div>
     
     </div>
   )
