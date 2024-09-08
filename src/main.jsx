@@ -5,16 +5,20 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navigation } from './components/navigation.jsx';
 import { BrowserRouter } from 'react-router-dom';
+import { FormData } from './DailyProjects/day3Form.jsx';
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
+    
 
     <BrowserRouter>
+
+    {/* <App/> */}
    
     <Navigation/>
+    <FormData/>
 
     </BrowserRouter>
     

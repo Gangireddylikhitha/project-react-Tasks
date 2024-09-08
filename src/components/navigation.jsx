@@ -16,7 +16,7 @@ export const Navigation=()=>{
        <Route path="/" element={<Restaurant/>}/>
         <Route path="/home" element={<HomeScreen/>}/>
         <Route path="/about" element={<AboutScreen/>}/>
-     </Routes>
+ </Routes>
 
 
 

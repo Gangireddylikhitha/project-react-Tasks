@@ -5,6 +5,7 @@ import { Restaurant } from "../DailyProjects/day5Navigation"
 export const HomeScreen=()=>{
     return(
         <>
+        
           <Restaurant/>
 
            <RecipeData/>
