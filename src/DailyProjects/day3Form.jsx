@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+// import { Route, Routes } from "react-router-dom"
 
 // import { Restaurant } from "./day5Navigation"
 // import { HomeScreen } from "../components/HomeScreen"
@@ -18,18 +18,6 @@ export const FormData=()=>{
           setIsForm(prevState => !prevState); 
         }
       
-      
-      // const dataHandler=(newData)=>{
-      //   setData([...data,newData])
-      // }
-      
-      // const onSubmit=(event)=>{
-      //   event.preventDefault()
-      
-      //   dataHandler({name:"ram"})
-      // }
-
-
 
 
 

@@ -1,7 +1,13 @@
 import Table from 'react-bootstrap/Table';
 
 
-function TableComponent({ rowData =[]}) {
+function TableComponent({ rowData =[],deleteHandler,editHandler}) {
+
+
+
+
+
+
   return (
     <Table striped bordered hover >
       <thead>
@@ -18,6 +24,8 @@ function TableComponent({ rowData =[]}) {
               <td>{eachRow.userName}</td>
               <td>{eachRow.password}</td>
               <td>{eachRow.city}</td>
+              <td> <button style={{backgroundColor:"skyblue"}} onClick={()=>editHandler(index)}>Edit</button></td>
+              <td> <button style={{backgroundColor:"red"}} onClick={()=>deleteHandler(index)}>Delete</button></td>
              
             </tr>
           ))
