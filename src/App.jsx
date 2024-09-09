@@ -4,7 +4,8 @@
 // import DisplayTable from "./DailyProjects/day2table"
 // import { Restaurant } from "./DailyProjects/day3table"
 
-import { EditForm } from "./DailyProjects/day4EditForm"
+import { Bulb } from "./components/bulb"
+// import { EditForm } from "./DailyProjects/day4EditForm"
 
 
 
@@ -19,7 +20,8 @@ import { EditForm } from "./DailyProjects/day4EditForm"
 const App=()=>{
   return(
     <div>
-<EditForm/>
+      <Bulb/>
+{/* <EditForm/> */}
 {/* <TableFormUpdate/> */}
       {/* <Weather/> */}
       {/* <FormData/>

@@ -42,7 +42,6 @@ export class Bulb extends Component {
                         return (
                             <>
                                 <div style={{ display: "inline-block", margin: 10 }}>
-                                    {/* const a=(f)?this.state.data[index]["img1"]:this.state.data[index]["img2"] */}
                                     <img src={(this.state.data[index].f) ? this.state.data[index]["img1"] : this.state.data[index]["img2"]} 
                                     style={{ width: 200, height: 200 }} onClick={() => { this.onBulb(index) }} />
                                     <button style={{ display: "block" }} onClick={() => { this.removeCard(index) }}>remove</button>

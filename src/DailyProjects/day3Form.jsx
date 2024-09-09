@@ -25,13 +25,7 @@ export const FormData=()=>{
     return(
       
 <div>
-    {/* <Routes>
-
-        <Route path="/" element={<Restaurant/>}/>
-         <Route path="/home" element={<HomeScreen/>}/>
-         <Route path="/about" element={<AboutScreen/>}/>
-
-      </Routes> */}
+    
 
       <button onClick={formHandler} style={{ backgroundColor: "green" }}>add+</button>
  
