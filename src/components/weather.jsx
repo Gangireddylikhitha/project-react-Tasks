@@ -29,7 +29,7 @@ data:newData.data
 
     }
     render(){
-const {nasdme,main}=this.state.data
+const {name,main}=this.state.data
 console.log(this.state.data)
 
         return(
